@@ -1,0 +1,87 @@
+﻿.{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+
+.navbar-style {
+    background-color: #7EB5A6;
+}
+
+
+body {
+    background-color: #F7DBF0;
+}
+
+.container {
+    /*background-color: #C9CCD5;*/
+    min-height: calc(100vh - 100px);
+}
+
+footer {
+    background-color: #F7D59C;
+    padding: 20px;
+}
+
+/* PopUp */
+ 
+
+.modalBackground { 
+    background-color: black;
+    filter: alpha(opacity = 80);
+    opacity: 0.8;
+    z-index: 10000;
+}
+
+/* */
+
+.btn-test{
+    cursor: pointer;
+}
+
+.PanelPopUp{ 
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.Test{
+    cursor: pointer;
+}
+
+.container-libro {
+    background-color: #FFE6E6;
+    border:  groove;
+}
+
+.tituloLibro{
+    text-decoration-style: double; 
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+
+.labelLibro { 
+    text-align: start;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Diseño de Grillas */
+
+.tablaLibros {
+    background-color: #CDF0EA;
+    padding: 10px;
+}
+
+.DDLibros {
+    display: block;
+    margin: auto;
+    margin-bottom: 9px;
+    padding: 3px; 
+}
+
+.btnForms{
+    display: block;
+    margin: auto;
+}
